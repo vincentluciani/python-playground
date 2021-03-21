@@ -15,7 +15,7 @@ def print_usage(commands):
         print(command.description)
 
 def parse_command(commands, args):
-    command = commands.setdefault(args[0], NoAction)
+    command = commands.setdefault(args[0], NoAction) #find args[0] in command, assign NoAction if not found
     return command(args)
 
 commands = get_commands()

@@ -10,7 +10,7 @@ from injectable import (
 from injectable.testing import clear_injectables, register_injectables
 
 
-@injectable
+@injectable(qualifier="real_car")
 class RealCar:
     @staticmethod
     def print():

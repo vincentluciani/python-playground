@@ -1,7 +1,7 @@
 from injectable import injectable_factory
 
-from injectables.car import Car
-from injectables.vehicle_interface import Vehicle
+from injectables.full_example.car import Car
+from injectables.factory.vehicle_interface import Vehicle
 
 
 @injectable_factory(dependency=Vehicle,qualifier='vehicle_factory')

@@ -1,7 +1,7 @@
-from injectable import load_injection_container, Autowired, inject
+from injectable import load_injection_container, inject
 
-from injectables.vehicle_interface import Vehicle
-
+from injectables.factory.vehicle_interface import Vehicle
+from injectables.full_example.car import Car
 
 load_injection_container()
 

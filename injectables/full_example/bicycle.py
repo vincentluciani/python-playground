@@ -1,7 +1,7 @@
 from injectable import injectable, Autowired, autowired
-from  injectables.configuration import Configurator
+from injectables.full_example.configuration import Configurator
 
-from injectables.vehicle_interface import Vehicle
+from injectables.factory.vehicle_interface import Vehicle
 
 
 @injectable(qualifier="bicycle")

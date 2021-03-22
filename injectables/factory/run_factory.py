@@ -1,7 +1,4 @@
-from examples.factory.external_client import ExternalClient as ExternalClient
-from injectable import load_injection_container, inject, autowired, Autowired
-from car import Car
-from injectables.vehicle_factory import VehicleFactory
+from injectable import load_injection_container, autowired, Autowired
 
 
 class Factory():

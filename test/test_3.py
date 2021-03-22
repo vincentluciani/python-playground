@@ -1,13 +1,9 @@
-import unittest
 from unittest.mock import Mock
 
-from injectable import load_injection_container, Injectable, inject, autowired, Autowired
+from injectable import load_injection_container, Injectable, autowired, Autowired
 from injectable.testing import clear_injectables, register_injectables
 
-from injectables.car import Car
-from injectables.mocktest import RealCar
-from injectables.vehicle_interface import Vehicle
-
+from injectables.full_example.car import Car
 
 
 # class TestWithMock(unittest.TestCase):

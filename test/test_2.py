@@ -2,7 +2,7 @@ import unittest
 
 from injectable import load_injection_container, inject
 
-from injectables.vehicle_interface import Vehicle
+from injectables.factory.vehicle_interface import Vehicle
 
 
 class ThisIsMyTest(unittest.TestCase):
